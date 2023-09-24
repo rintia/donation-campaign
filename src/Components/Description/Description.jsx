@@ -1,18 +1,29 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Description = () => {
+    const handleDonate =() =>{
+        toast('Successfully Donated')
+    }
     const cardDetails = useLoaderData();
     const{id} =useParams();
     const idInt = parseInt(id)
     const cardDetail = cardDetails.find(cardDetail => cardDetail.id == idInt);
-    const {title, image, description} = cardDetail;
+    const {title, image, description, price} = cardDetail;
     console.log( id);
     
     return (
-        <div className="h-screen space-y-4 ">
-            <img className="w-full rounded h-2/3 mt-8" src={image} alt="" />
+        <div className="space-y-4">
+           <div className=" relative">
+           <img className="h-[500px] w-full rounded  mt-8" src={image} alt="" />
+           <div className="absolute bottom-0 px-4 py-3 bg-gray-800/50 w-full">
+         <button onClick={handleDonate} className="btn btn-primary text-white font-semibold bg-[#FF444A] border-none">Donate ${price}</button>
+        </div>
+           </div>
             <h1 className="font-bold text-5xl">{title}</h1>
-            <p>{description}</p>
+            <p className="mb-8">{description}</p>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
