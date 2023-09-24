@@ -1,0 +1,135 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/DkL8T0L/ben-koorengevel-sju-Lx-UOEMY8-unsplash.jpg",
+      "title": "Education Fund",
+      "category": "Education",
+      "category_color": "#FF5733",
+      "card_color": "#FFC300",
+      "text_color": "#333333",
+      "description": "Support children's education and provide them with the tools they need to succeed.",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/LN1N3vX/christian-dubovan-Y-x747-Yshlw-unsplash.jpg",
+      "title": "Healthcare Support",
+      "category": "Healthcare",
+      "category_color": "#FF5733",
+      "card_color": "#FFC300",
+      "text_color": "#333333",
+      "description": "Help those in need access quality healthcare services and medical treatment.",
+      "price": 50
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/wY0fP6t/elaine-casap-qg-HGDbb-SNm8-unsplash.jpg",
+      "title": "Environmental Conservation",
+      "category": "Environment",
+      "category_color": "#6B8E23",
+      "card_color": "#A9DFBF",
+      "text_color": "#333333",
+      "description": "Contribute to the protection and preservation of our planet's natural resources.",
+      "price": 30
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/hdhfyN3/elyse-chia-kye-JW1z-RH0-I-unsplash.jpg",
+      "title": "Animal Welfare",
+      "category": "Environment",
+      "category_color": "#6B8E23",
+      "card_color": "#A9DFBF",
+      "text_color": "#333333",
+      "description": "Support the well-being and conservation of endangered animal species.",
+      "price": 40
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/4W9pmbT/joel-muniz-3k3l2brxmw-Q-unsplash.jpg",
+      "title": "Hunger Relief",
+      "category": "Food",
+      "category_color": "#FFA500",
+      "card_color": "#FFD700",
+      "text_color": "#333333",
+      "description": "Help provide food and nourishment to those facing hunger and poverty.",
+      "price": 20
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/Gc0HTpD/joel-muniz-A4-Ax1-Apccf-A-unsplash.jpg",
+      "title": "Clean Water Initiative",
+      "category": "Food",
+      "category_color": "#FFA500",
+      "card_color": "#FFD700",
+      "text_color": "#333333",
+      "description": "Ensure access to clean and safe drinking water for communities in need.",
+      "price": 35
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/p1rHTjK/su-nyoto-k-Y8m5u-DIW7-Y-unsplash.jpg",
+      "title": "Youth Empowerment",
+      "category": "Empowerment",
+      "category_color": "#4169E1",
+      "card_color": "#A9A9A9",
+      "text_color": "#000000",
+      "description": "Support programs that empower young people with education and skills.",
+      "price": 30
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/2yvGKVr/seth-doyle-zf9-yi-Aek-Js-unsplash.jpg",
+      "title": "Women's Equality",
+      "category": "Empowerment",
+      "category_color": "#4169E1",
+      "card_color": "#A9A9A9",
+      "text_color": "#000000",
+      "description": "Advocate for gender equality and empower women in all aspects of life.",
+      "price": 40
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/5BVXcVs/Food.png",
+      "title": "Disaster Relief",
+      "category": "Emergency",
+      "category_color": "#FF0000",
+      "card_color": "#FF6347",
+      "text_color": "#000000",
+      "description": "Provide aid and support to communities affected by natural disasters.",
+      "price": 50
+    },
+    {
+      "id": 10,
+      "image": "https://i.ibb.co/98P3Xcn/Health.png",
+      "title": "Medical Research",
+      "category": "Healthcare",
+      "category_color": "#FF5733",
+      "card_color": "#FFC300",
+      "text_color": "#333333",
+      "description": "Contribute to medical research to find cures and improve healthcare.",
+      "price": 45
+    },
+    {
+      "id": 11,
+      "image": "https://i.ibb.co/J24bNTY/Education.png",
+      "title": "Elderly Care",
+      "category": "Healthcare",
+      "category_color": "#FF5733",
+      "card_color": "#FFC300",
+      "text_color": "#333333",
+      "description": "Support programs that provide care and companionship to the elderly.",
+      "price": 25
+    },
+    {
+      "id": 12,
+      "image": "https://i.ibb.co/hZx9nT2/Clothing.png",
+      "title": "Community Development",
+      "category": "Empowerment",
+      "category_color": "#4169E1",
+      "card_color": "#A9A9A9",
+      "text_color": "#000000",
+      "description": "Promote sustainable community development and infrastructure projects.",
+      "price": 35
+    }
+  ]
+  
