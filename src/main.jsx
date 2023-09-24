@@ -6,10 +6,27 @@ import {
 } from "react-router-dom";
 import './index.css'
 import Root from './Components/Root/Root';
+import Home from './Home/Home';
+import Donation from './Components/Donation/Donation';
+import Statistic from './Components/Statistic/Statistic';
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    children: [{
+      path: '/',
+      element: <Home></Home>,
+    },
+    {
+      path: '/donation',
+      element: <Donation></Donation>
+    },
+    {
+      path: '/statistic',
+      element: <Statistic></Statistic>
+    }
+    
+    ]
   },
 ]);
 
