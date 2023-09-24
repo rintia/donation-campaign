@@ -6,7 +6,7 @@ const Root = () => {
         <div className=" max-w-screen-xl mx-auto">
             <Navbar></Navbar>
             <Outlet></Outlet>
-            <h1>This is root</h1>
+            
         </div>
     );
 };
