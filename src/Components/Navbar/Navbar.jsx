@@ -4,7 +4,7 @@ const Navbar = () => {
         <nav>
             <div className="navbar bg-base-100 mt-8">
         <div className="flex-1">
-          <img className="lg:w-2/12 md:w-3/12" src="../../../public/Logo.png" alt="" />
+          <img className="lg:w-2/12 md:w-3/12" src="/Logo.png" alt="" />
         </div>
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
