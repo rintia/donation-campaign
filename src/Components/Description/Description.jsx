@@ -5,7 +5,7 @@ import { saveDonation } from "../../localStorage";
 
 const Description = () => {
     const handleDonate =() =>{
-        saveDonation(idInt)
+        saveDonation(idInt);
         toast('Successfully Donated')
     }
     const cardDetails = useLoaderData();
@@ -13,7 +13,6 @@ const Description = () => {
     const idInt = parseInt(id)
     const cardDetail = cardDetails.find(cardDetail => cardDetail.id == idInt);
     const {title, image, description, price, text_color} = cardDetail;
-    console.log( id);
     
     return (
         <div className="space-y-4">
