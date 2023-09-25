@@ -30,7 +30,7 @@ const Statistic = () => {
     return (
         <div className='flex justify-center mt-8'>
             
-            <PieChart width={600} height={500}>
+            <PieChart width={400} height={400}>
           <Pie
             data={data}
             cx="50%"

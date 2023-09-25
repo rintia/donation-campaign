@@ -4,8 +4,8 @@ const Card = ({card}) => {
     const{id, image, title, category, category_color, card_color, text_color} = card;
     return (
         <Link to={`/card/${id}`}>
-            <div className='card shadow-xl hover:cursor-pointer' style={{backgroundColor:`${card_color}`, color: `${text_color}`}}>
-        <figure className='h-full w-full'><img className='h-full w-full' src={image} alt="charity" /></figure>
+            <div className='card shadow-xl hover:cursor-pointer h-full' style={{backgroundColor:`${card_color}`, color: `${text_color}`}}>
+        <figure className='h-3/5 w-full'><img className=' h-full object-cover w-full' src={image} alt="charity" /></figure>
         
         <div className='p-4'>
         <p><span className='text-sm  px-2 rounded-xl' style={{backgroundColor:`${category_color}`}}>{category}</span></p>
