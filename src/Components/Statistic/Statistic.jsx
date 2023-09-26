@@ -22,13 +22,13 @@ const Statistic = () => {
       
         return (
           <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
-            {`${(percent * 100).toFixed(0)}%`}
+            {`${(percent * 100).toFixed(2)}%`}
           </text>
         );
       };
       
     return (
-        <div className='flex justify-center mt-8'>
+        <div className='flex justify-center mt-8 mb-4'>
             
             <PieChart width={400} height={400}>
           <Pie
