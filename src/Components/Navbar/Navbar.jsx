@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="max-w-screen-xl mx-auto px-4">
             <div className="navbar bg-base-100 mt-8">
         <div className="flex-1">
           <img className="lg:w-2/12 md:w-3/12" src="/Logo.png" alt="" />

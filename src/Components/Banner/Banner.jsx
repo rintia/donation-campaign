@@ -4,8 +4,7 @@ import PropTypes from 'prop-types';
 const Banner = ({handleSearch}) => {
   
     return (
-        <div className="hero h-96" style={{backgroundImage: 'url("bg_image.jpeg")'}}>
-        <div className="hero-overlay bg-opacity-80"></div>
+        <div className="hero bg-slate-200 bg-blend-screen h-96" style={{backgroundImage: 'url("bg_image.jpeg")'}}>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-xl">
             <h1 className="mb-5 text-4xl font-bold text-black">I Grow By Helping People In Need</h1>

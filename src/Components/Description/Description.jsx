@@ -15,7 +15,7 @@ const Description = () => {
     const {title, image, description, price, text_color} = cardDetail;
     
     return (
-        <div className="space-y-4">
+        <div className="space-y-4 max-w-screen-xl mx-auto px-4">
            <div className=" relative">
            <img className="h-[500px] w-full rounded  mt-8" src={image} alt="" />
            <div className="absolute bottom-0 px-4 py-3 bg-gray-800/50 w-full">

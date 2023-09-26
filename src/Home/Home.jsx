@@ -37,7 +37,7 @@ const Home = () => {
     return (
         <div>
             <Banner handleSearch={handleSearch}></Banner>
-            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-4 mt-24 px-4 lg:px-0 mb-8 ">
+            <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-3 gap-4 mt-24 px-4 lg:px-0 mb-8 max-w-screen-xl mx-auto ">
                 {   
 
                     (searchedCards.length > 0) ? searchedCards.map(card => <Card key={card.id} card={card}></Card>)  :
