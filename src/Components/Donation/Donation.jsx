@@ -19,7 +19,7 @@ const Donation = () => {
             }
             setMyDonations(donations);
         }
-    },[])
+    },[]);
     return (
         <div className="my-16 lg:px-0 px-4">
            
@@ -28,7 +28,7 @@ const Donation = () => {
                     myDonations.slice(0, dataLength).map(myDonation => <MyDonation key={myDonation.id} myDonation={myDonation}></MyDonation>)
                 }
             </div>
-           <div className={dataLength == myDonations.length && 'hidden'}>
+           <div className={dataLength == myDonations.length || myDonations.length < 4 ? 'hidden' : 'visible'}>
            <div className='flex justify-center mt-8'>
                 <button onClick={() => setDataLength(myDonations.length)} className="btn bg-[#009444] text-white">See All</button>
             </div>
